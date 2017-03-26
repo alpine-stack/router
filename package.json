@@ -1,0 +1,22 @@
+{
+  "name": "router",
+  "version": "1.0.0",
+  "description": "Simple JavaScript router",
+  "main": "src/Router/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpine-stack/router.git"
+  },
+  "keywords": [
+    "simple",
+    "javascript",
+    "es6",
+    "router"
+  ],
+  "author": "Andrzej Kostrzewa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpine-stack/router/issues"
+  },
+  "homepage": "https://github.com/alpine-stack/router#readme"
+}
