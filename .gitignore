@@ -1,9 +1,7 @@
 node_modules/
-*.*~
 *.db
 *.bac
 .project
-coverage/
 dist
 docs/dist
 npm-debug.log

@@ -2,7 +2,14 @@
   "name": "router",
   "version": "1.0.0",
   "description": "Simple JavaScript router",
-  "main": "src/Router/index.js",
+  "browser": "dist/router.iife.js",
+  "main": "dist/router.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "predev": "npm run lint",
+    "dev": "rollup -c -w",
+    "lint": "eslint src/**/*.js tests/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alpine-stack/router.git"
@@ -18,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/alpine-stack/router/issues"
   },
-  "homepage": "https://github.com/alpine-stack/router#readme"
+  "homepage": "https://github.com/alpine-stack/router#readme",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.0",
+    "eslint": "^3.18.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "latest",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^3.2.2"
+  }
 }
