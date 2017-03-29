@@ -7,7 +7,7 @@ const packageInfo = require( './package.json' );
 export default {
     entry: 'src/Router/Router.js',
     format: 'umd',
-    moduleName: "router",
+    moduleName: 'router',
     sourceMap: true,
     plugins: [
         resolve(),
